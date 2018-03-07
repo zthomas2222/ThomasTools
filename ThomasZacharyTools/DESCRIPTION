@@ -1,0 +1,18 @@
+Package: ThomasZacharyTools
+Title: Tools for STAT 3701
+Version: 0.0.1
+Authors@R: person("Zach", "Thomas", email = "thom5719@umn.edu", role = c("aut", "cre"))
+Description: This is a set of functions, plots, etc for STAT 3701 class.
+Depends: R (>= 3.3.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: ggplot2,
+    dplyr,
+    readr,
+    magrittr
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
